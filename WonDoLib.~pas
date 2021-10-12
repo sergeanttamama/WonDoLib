@@ -1,0 +1,20 @@
+unit WonDoLib;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+procedure test();
+
+
+implementation
+
+procedure test();
+begin
+  showmessage('hi');
+end;
+
+end.
+ 
